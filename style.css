@@ -240,8 +240,8 @@ footer {
 }
 .fleft{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
-.fleft img{
-    width: 25%;
+.fleft p{
+    width: 49%;
 }
