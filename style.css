@@ -242,6 +242,6 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.fleft>p{
-    width: 50%;
+.fleft img{
+    width: 25%;
 }
