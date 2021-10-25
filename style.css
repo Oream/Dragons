@@ -228,10 +228,3 @@ footer {
     opacity: 0;
     visibility: hidden;
 }
-.fleft {
-    display: flex;
-    justify-content: space-between;
-}
-.fleft>p{
-    width: 25%;
-}
