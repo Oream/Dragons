@@ -232,6 +232,6 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.flex>p{
+.fle>p{
     width: 25%;
 }
