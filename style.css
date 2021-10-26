@@ -253,4 +253,7 @@ footer {
         flex-wrap: nowrap;
         justify-content: space-between;
     }
+    .fleft p{
+        width:37.5%;
+    }
 }
