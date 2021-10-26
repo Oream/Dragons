@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html lang="jp">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4R00R51L9"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-R4R00R51L9');
-        </script>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>◆Oream◇</title>
-    </head>
-    <script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ギャラリー｜◆Oream◇</title>
+</head>
+<script>
     window.onload = function() {
         const loader_element = document.getElementById('loader_wrap');
         window.setTimeout(function() {
             loader_element.classList.add('loaded');
         }, 1000);
     };
-    </script>
-    <div id="loader_wrap">
-        <div class="loader"></div>
-    </div>
-    <body>
-        <header class="header">
-            <div class="logo"><a href="https://oream.github.io/2021Fes/">◆Oream◇</a></div><!-- /.logo -->
+</script>
+<header class="header">
+    <div class="logo"><a href="https://oream.github.io/2021Fes/">◆Oream◇</a></div><!-- /.logo -->
 
-            <!-- ハンバーガーメニュー部分 -->
-            <div class="drawer">
+    <!-- ハンバーガーメニュー部分 -->
+    <div class="drawer">
 
-                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
-                <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input type="checkbox" id="drawer-check" class="drawer-hidden">
 
-                <!-- ハンバーガーアイコン -->
-                <label for="drawer-check" class="drawer-open"><span></span></label>
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer-check" class="drawer-open"><span></span></label>
 
-                <!-- メニュー -->
-                <nav class="drawer-content">
+        <!-- メニュー -->
+        <nav class="drawer-content">
             <ul class="drawer-list">
                 <li class="drawer-item">
                     <a href="https://oream.github.io/2021Fes/">　トップページ</a>
@@ -65,27 +52,30 @@
                 </li>
             </ul><!-- /.drawer-list -->
         </nav>
+    </div>
+</header>
 
-            </div>
-        </header>
-        <main>
-            <img src="clane1.jpg" alt="" width="100%">
-            <div class="palagraph1">
-                <h2>ドラゴン</h2>
-            </div>
-            <div class="fleft">
-                <div class="item">
-                    <img src="IMG_E4179[1].JPG">
-                </div>
-                <div class="item">
-                    <p>
-                        「グリフォン」
-                    </p>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; ◆Oream◇ 2021</p>
-        </footer>
-    </body>
-</html>
+<body>
+    <div id="loader_wrap">
+        <div class="loader"></div>
+    </div>
+    <img src="clane1.jpg" alt="" width="100%">
+    <div class="detail">
+        <h2>ドラゴン</h2>
+        <p>
+            ◆Oream◇の会員が折ったドラゴンたちです。
+        </p>
+    </div>
+    <div class="container">
+        <div class="view">
+            <p><img src="IMG_E4179[1].JPG " alt=""></p> 
+            <p>
+                <h3>「グリフォン」</h3><br> 
+                出典：「超造形折り紙」
+            </p>     
+        </div>
+    </div>
+    <footer>
+        <p>&copy; ◆Oream◇ 2021</p>
+    </footer>
+</body></html>
