@@ -253,7 +253,4 @@ footer {
         flex-wrap: nowrap;
         justify-content: space-between;
     }
-    .item+.item{
-        margin-left: 1.0em;
-    }
 }
