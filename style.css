@@ -5,13 +5,8 @@
 body {
     margin: 0;
     background-color: white;
-    display: flex;
-    flex-flow: column;
-    min-height: 100vh;
 }
-main {
-    flex: auto;
-}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -141,7 +136,7 @@ header nav a:hover{
     text-align: center;
 }
 
-.palagraph1{
+.detail{
     width: 50%;
     margin: auto;
     text-align: center;
@@ -151,15 +146,56 @@ h2 {
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
 }
-.loader_wrap>h2{
-    padding: 0;
-    border-top: 0;
-    border-bottom: 0;
-}
 footer {
     text-align: center;
     background-color: antiquewhite;
     padding:10px;
+}
+.view {
+    display: block;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+.view img {
+    max-width: 100%;
+    height:auto;
+}
+.view a {
+    display: block;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+        to right,
+        #a48c61 0%,
+        #a48c61 50%,
+        #000000 50%,
+        #000000 100%
+    );
+    box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+    transition: background-position ease 0.4s;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+.view a:hover {
+    background-position: 0 0;
+}
+.view p{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:space-around;
+    align-content:space-around;
 }
 /* 画面全体の設定 */
 #loader_wrap {
@@ -237,23 +273,4 @@ footer {
 .loaded {
     opacity: 0;
     visibility: hidden;
-}
-.fleft{
-    max-width: 600px;
-    margin:  0 auto;
-}
-.fleft img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-@media screen and (min-width: 600px) {
-    .fleft{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-    .fleft p{
-        width:37.5%;
-    }
 }
